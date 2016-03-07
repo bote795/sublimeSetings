@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+(function() {
+
+	angular.module('$1').controller('$2Ctrl',[ $2Ctrl ])
+	function $2Ctrl(){
+			var vm =this;
+			$3
+	}
+})();
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>angCtrl</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	 <scope>source.js</scope> 
+</snippet>
