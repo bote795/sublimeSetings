@@ -2,7 +2,8 @@
 	<content><![CDATA[
 (function() {
 
-	angular.module('$1').controller('$2Ctrl',[ $2Ctrl ])
+	angular.module('$1').controller('$2Ctrl',
+	[ $2Ctrl ])
 	function $2Ctrl(){
 			var vm =this;
 			$3
