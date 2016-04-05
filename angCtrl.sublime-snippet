@@ -1,11 +1,12 @@
 <snippet>
 	<content><![CDATA[
 (function() {
-
-	angular.module('$1').controller('$2Ctrl',[ $2Ctrl ])
+	'use strict';
+	angular.module('$1').controller('$2Ctrl',
+	[ $2Ctrl ])
 	function $2Ctrl(){
-			var vm =this;
-			$3
+		var vm =this;
+		$3
 	}
 })();
 ]]></content>
