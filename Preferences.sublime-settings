@@ -4,6 +4,9 @@
 		"dist/*",
 		"node_modules/*"
 	],
+	"folder_exclude_patterns": [
+		"node_modules"
+	],
 	"font_size": 10,
 	"ignored_packages":
 	[
